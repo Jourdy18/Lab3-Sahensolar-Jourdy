@@ -1,0 +1,113 @@
+body {
+    background-color: #f1efef;
+    width: 30%;
+    margin-top: 100px;
+    margin-left: 450px;
+}
+
+.card {
+    background-color: #ffffff;
+    padding-top: 1px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+.card h1, p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card p {
+    color: gray;
+}
+
+form {
+    text-align: center;
+}
+
+form p {
+    text-align: left;
+    font-size: small;
+}
+
+.form-content {
+    padding: 3px;
+}
+
+input {
+    padding: 10px; 
+    margin-top: 0.5em; 
+    border: 1px solid #ccc; 
+    border-radius: 4px;
+    width: 90%;
+}
+
+input[type="text"]:focus, input[type="password"]:focus {
+        border-color: #0033ff;
+        border: 2px solid #0033ff;
+        outline: none;
+}
+
+button {
+    width: 100%;
+    padding: 0.5em;
+    border: 1px solid #ccc;
+    border-radius: 1px;
+}
+
+.divider{
+    text-align: center;
+    border-bottom: 1px solid #3d3e43;
+    line-height: 0.1em;
+    margin: 20px 0;
+}
+
+.divider span{
+    background: white;
+    padding: 0 10px;
+}
+
+
+button.submit {
+    background-color: #0080ff;
+    color: #ffffff;
+    border-radius: 29px;
+}
+
+button.submit:hover {
+    background-color: #0033ff;
+    cursor: pointer;
+}
+
+button.social {
+    border: 1px solid black;
+    border-radius: 29px;
+}
+
+button.social:hover {
+    background-color: #0033ff;
+    color: white;
+    cursor: pointer;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+    background-color: rgb(13, 127, 249);
+    border-radius: 10px;
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+}
+
+footer a:hover {
+    background-color: rgb(157, 245, 238);
+    color: #0033ff;
+}
